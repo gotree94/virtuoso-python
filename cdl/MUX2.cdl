@@ -1,0 +1,8 @@
+.SUBCKT MUX2 A0 A1 S Y VDD VSS
+MN0 Y S A0 VSS g45n1svt w=0.12u l=0.045u nf=1 m=1
+MP0 Y SN A0 VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MN1 Y SN A1 VSS g45n1svt w=0.12u l=0.045u nf=1 m=1
+MP1 Y S A1 VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MN2 SN S VSS VSS g45n1svt w=0.12u l=0.045u nf=1 m=1
+MP2 SN S VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+.ENDS

@@ -1,0 +1,20 @@
+.SUBCKT NAND9 A0 A1 A2 A3 A4 A5 A6 A7 A8 Y VDD VSS
+MN0 N1 A0 VSS VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN1 N2 A1 N1 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN2 N3 A2 N2 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN3 N4 A3 N3 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN4 N5 A4 N4 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN5 N6 A5 N5 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN6 N7 A6 N6 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN7 N8 A7 N7 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MN8 Y A8 N8 VSS g45n1svt w=1.08u l=0.045u nf=1 m=1
+MP0 Y A0 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP1 Y A1 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP2 Y A2 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP3 Y A3 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP4 Y A4 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP5 Y A5 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP6 Y A6 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP7 Y A7 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP8 Y A8 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+.ENDS

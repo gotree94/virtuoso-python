@@ -1,0 +1,12 @@
+.SUBCKT NAND5 A0 A1 A2 A3 A4 Y VDD VSS
+MN0 N1 A0 VSS VSS g45n1svt w=0.6u l=0.045u nf=1 m=1
+MN1 N2 A1 N1 VSS g45n1svt w=0.6u l=0.045u nf=1 m=1
+MN2 N3 A2 N2 VSS g45n1svt w=0.6u l=0.045u nf=1 m=1
+MN3 N4 A3 N3 VSS g45n1svt w=0.6u l=0.045u nf=1 m=1
+MN4 Y A4 N4 VSS g45n1svt w=0.6u l=0.045u nf=1 m=1
+MP0 Y A0 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP1 Y A1 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP2 Y A2 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP3 Y A3 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+MP4 Y A4 VDD VDD g45p1svt w=0.24u l=0.045u nf=1 m=1
+.ENDS
